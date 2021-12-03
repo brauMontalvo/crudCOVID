@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+*{
+    font-family: 'Nova Flat', cursive;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a72f00;
+}
+
+
+#admin{
+    margin-top: 70px;
+    margin-left: 70px;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 75%;
+    border-color:rgb(21, 212, 94) 125px solid;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(100, 100, 100);
+    border-style: groove;
+    
+}
+
+
+#fondo{
+    width: 100%;
+	height:100%;
+	background-size: cover;
+    background-color: rgb(165, 165, 165);
+    background-blend-mode: soft-light;
+}
+
+table{
+    margin-top: 70px;
+    margin-left:70px;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);
+    color: rgb(6, 184, 124);
+    width: 75%;
+    border-color:rgb(21, 212, 94) 125px solid;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color:rgb(238, 176, 94);
+    border-style: groove;
+
+}
+
+strong{
+color: rgb(94, 255, 0);
+
+}
+
+b{
+    text-align: justify;
+    font-size: large;
+    color: rgb(151, 255, 229);
+}
+
+#tablaestela{
+    width: 75%;
+    border: rgb(206, 0, 120) 3px solid;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: url('https://i.pinimg.com/originals/21/ae/8e/21ae8e3a0cc6fbbfeaa3a0d9e577478a.png');
+}
+
+#aldair{
+    margin-top: 30px;
+    width: 50%;
+    border: rgb(0, 238, 255) 3px solid;
+    padding: 20px;
+    margin-bottom: 35px;
+    background: url('https://cdn.wallpapersafari.com/46/12/QwTKBP.jpg');
+}
+
+li {
+    float: left;
+}
+
+#resizable { width: 200px; height: 150px; padding: 5px; background-color:rgb(165, 209, 108);}
+  #resizable h3 { text-align: center; margin: 0; }
+
+div{
+    background-color:rgb(209, 204, 129);
+}
+
+#accordion{
+    background-color: #eb9696;
+}
+
+label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+
+th{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-align: center;
+}
+
+#enlace{
+background-color: rgb(141, 248, 239);
+
+}
+
+h1{
+    color: rgb(201, 0, 0);
+    text-align: center;
+}
+
+#urg{
+    color: rgb(231, 86, 67);
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 210, 10);
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: large;
+}
+
+#cal{
+    color: khaki;
+    font-size: 150%;
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+	font-size: 1.3rem;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(73, 224, 212);
+    text-align: center;
+    font-size: 180%;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 110, 255);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+#imagen{
+    width: 1050px;
+    height:800px;
+    transition:width 4s;
+}
+#imagen:hover{
+    width: 1200px;
+    height: 1000px;
+}
+
+#imagen2{
+    width: 250px;
+    height:250px;
+    transition:width 4s;
+}
+#imagen2:hover{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+.dropdown-content a:hover {background-color: #eb9696}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img{
+padding-top: 10px;
+
+}
+
+#selected {
+background-color: rgb(121, 178, 253);
+
+
+}
+
+.cerrar :hover {
+background-color:rgba(255, 0, 0, 0.808) ;
+
+}
+
+td a{
+color:skyblue;
+
+}
+
+td{
+padding: 10px;
+text-align: center;
+}
+
+
+
+footer{
+    color:rgb(42, 240, 240);
+	background-color: rgba(8, 170, 8, 0.589);
+	text-align: right;
+    position: fixed;
+  	bottom: 0;  
+	padding-left: 10px;
+	padding-right: 10px;
+    }
